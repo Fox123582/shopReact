@@ -1,0 +1,91 @@
+.wrapForContent{
+    margin: 20px 0 30px 100px;
+}
+
+.category__container{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px #888888;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 10px;
+}
+.category__container > img{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.wrapForContent{
+    color: black;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+section{
+    display: inline-block;
+    margin-right: 20px;
+}
+.category__container{
+    display: inline-block;
+    margin-right: 20px;
+}
+.wrapForCategories{
+    margin-bottom: 30px;
+
+}
+.name{
+    font-weight: bold;
+
+}
+.butForBuy img{
+    height: 25px;
+    width: 25px;
+}
+.butForBuy{
+    background-color: red;
+    position: absolute;
+    height: 30px;
+    border-radius: 5px;
+    bottom: 15px;
+    right: 10px;
+}
+.activeBut{
+    background-color: forestgreen;
+}
+.price{
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.wrapForDiscount{
+    margin-top: 10px;
+    display: flex;
+}
+.pastPrice{
+    height: 20px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.percent{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: forestgreen;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.disabled{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}

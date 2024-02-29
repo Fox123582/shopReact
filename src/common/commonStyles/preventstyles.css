@@ -1,0 +1,49 @@
+input,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background: transparent none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active,
+select:active {
+    outline: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}

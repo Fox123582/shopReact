@@ -1,0 +1,104 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: black;
+}
+table img{
+    width: 100px;
+    height: 100px;
+}
+thead tr {
+    background-color: lightgray;
+}
+
+thead th,
+tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td:first-child {
+    width: 30%;
+}
+
+tbody td:nth-child(n+2) {
+    width: 15%;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+.wrapForLeftSide h2{
+    color: forestgreen;
+    margin-bottom: 20px;
+
+}
+.wrapForAccount{
+    display: flex;
+}
+.wrapForLeftSide{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.nameImg{
+    display: flex;
+    align-items: center;
+}
+.nameImg p{
+    font-weight: bold;
+}
+.tableSale p{
+    text-align: center;
+    width: 50px;
+    background-color: forestgreen;
+    border-radius: 5px;
+}
+tr{
+    border-bottom: 2px solid lightgray;
+}
+.wrapForRightSide{
+    width: 30%;
+    color: black;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.wrapForRightSide h2{
+    margin-bottom: 20px;
+    color: forestgreen;
+}
+.wrapForRightSide p{
+    font-size: 20px;
+}
+.wrapForRightSide span{
+    margin-right: 20px;
+}
+.wrapForAccountName,.wrapForEmail{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.wrapForButtonDeleteAcc{
+    display: flex;
+    justify-content: center;
+}
+.deleteAccount{
+    font-weight: bolder;
+    width: 150px;
+    background-color: indianred;
+    color: darkred;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.error{
+    margin-top: 20px;
+    background-color: #ffe5e5;
+    border: 1px solid #ff7f7f;
+    border-radius: 5px;
+    padding: 20px;
+    color: red;
+}

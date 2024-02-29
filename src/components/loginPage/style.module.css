@@ -1,0 +1,59 @@
+.wrapForForms{
+    color: black;
+    font-size: 20px;
+    display: flex;
+}
+
+.wrapForLeftForm,.wrapForRightForm{
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.wrapForLeftForm{
+    margin-left: 100px;
+}
+.signIn, .register{
+    margin-top: 30px;
+}
+.signIn input, .register input{
+    text-indent: 10px;
+    box-shadow: 2px 2px 2px #888888;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signIn input::placeholder, .register input::placeholder{
+    text-indent: 10px;
+}
+.but {
+    font-weight: bolder;
+    width: 150px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.wrapForRightForm{
+    margin-right: 40px;
+    padding-left: 40px;
+    border-left: 2px solid grey;
+}
+
+.error{
+    margin-top: 20px;
+    background-color: #ffe5e5;
+    border: 1px solid #ff7f7f;
+    border-radius: 5px;
+    padding: 20px;
+    color: red;
+}
+.error p {
+    margin-bottom: 0;
+}
